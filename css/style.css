@@ -1,5 +1,6 @@
 .nav-bar {
     width: 1280px;
-    color: rgba(151, 193, 169, 1);
+    height: 97px;
+    color: black
     border-color: black;
 }
