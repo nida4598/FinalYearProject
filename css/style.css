@@ -1,41 +1,45 @@
-#header-nav {
-    background-color: rgb(151, 193, 169);
-    height: 135px;
-    border-color: rgb(151, 193, 169);
-    
-}
 body {
     background-color: rgb(183, 207, 183);
     height: 1000px;
     width: 1345px;
 }
-.buttons-class {
-    display: inline-block;
-}
-.about-us {
-    margin-top: 50px;
-    font-size: 22px;
-    background-color: rgb(151, 193, 169);
-    border: 0;
-    padding-top: 25px 25px 25px 25px;
-    width: 120px;
-    white-space: nowrap;
-    margin-left: 1100px;
-    color: black;
-    text-align: center;
-}
-.contact-us {
-    margin-top: 50px;
-    font-size: 22px;
-    background-color: rgb(151, 193, 169);
-    border: 0;
-    padding-top: 25px 25px 25px 25px;
-    width: 120px;
-    white-space: nowrap;
-    margin-left: 900px;
-    color: black;
-    text-align: center;
-    background-color: black;
-    
 
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: rgb(151, 193, 169);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    height: 100px;
+    font-weight: bolder;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 50px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: black
+  }
+.navbar-brand {
+    color: aqua;
+}
+#logo-img {
+    background: url('../images/moon/ ship.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
 }
