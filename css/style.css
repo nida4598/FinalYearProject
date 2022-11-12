@@ -9,14 +9,33 @@ body {
     height: 1000px;
     width: 1345px;
 }
+.buttons-class {
+    display: inline-block;
+}
 .about-us {
-    margin-left: 1100px;
     margin-top: 50px;
     font-size: 22px;
-    border-color: none;
     background-color: rgb(151, 193, 169);
     border: 0;
     padding-top: 25px 25px 25px 25px;
     width: 120px;
     white-space: nowrap;
+    margin-left: 1100px;
+    color: black;
+    text-align: center;
+}
+.contact-us {
+    margin-top: 50px;
+    font-size: 22px;
+    background-color: rgb(151, 193, 169);
+    border: 0;
+    padding-top: 25px 25px 25px 25px;
+    width: 120px;
+    white-space: nowrap;
+    margin-left: 900px;
+    color: black;
+    text-align: center;
+    background-color: black;
+    
+
 }
