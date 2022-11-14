@@ -1,54 +1,59 @@
 body {
-    background-color: rgb(183, 207, 183);
-    height: 1000px;
-    width: 1345px;
+  background-color: rgb(183, 207, 183);
+  height: 1000px;
+  width: 1345px;
 }
 
 /* Add a black background color to the top navigation */
 .navbar {
-    background-color: rgb(151, 193, 169);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .navbar a {
-    height: 100px;
-    font-weight: bolder;
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-  }
-  .navbar-header {
-    position: absolute;
-  }
-  /* Change the color of links on hover */
-  .navbar a:hover {
-    background-color: rgb(183, 207, 183);
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .navbar a.active {
-    color: black
-  }
-.navbar-brand {
-    color: black;
-    padding-top: 25px;
+  background-color: rgb(151, 193, 169);
+  overflow: hidden;
 }
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  height: 100px;
+  font-weight: bolder;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.navbar-header {
+  position: absolute;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(183, 207, 183);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: black
+}
+
+.navbar-brand {
+  color: black;
+  padding-top: 25px;
+}
+
 #logo-img {
-    background: url('../images/moon ship.jpg') no-repeat;
-    width: 100px;
-    height: 50px;
-    margin: 1px 1px 1px 0;
-    margin-top: 10px;
-    margin-bottom: 1px;
-    margin-left: 0;
+  background: url('../images/moon ship.jpg') no-repeat;
+  width: 100px;
+  height: 50px;
+  margin: 1px 1px 1px 0;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 0;
+  padding: 0px;
 }
 
 .navbar-brand h1 {
@@ -64,26 +69,34 @@ body {
   margin-left: 0px;
 
 }
+
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
   color: black;
   text-align: center;
 }
+
 #nav-list a:hover {
   background: rgb(183, 207, 183);
 }
+
 #nav-list a span {
   font-size: 1.8em;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
+
 #home-icon {
   background-color: rgb(151, 193, 169);
   display: inline-block;
@@ -94,41 +107,91 @@ body {
   color: white;
 
 }
+
 #home-icon span {
   margin-right: 7px;
   margin-left: 0px;
 }
-#home-icon 
 
+#home-icon:hover {
+  opacity: 0.8;
+}
 
+#home-icon:active {
+  opacity: 0.5;
+}
 
+/* home page*/
+.home-img {
+  box-shadow: 0 0 50px rgb(151, 193, 169);
+  border: 2px solid rgb(183, 207, 183);
+  margin-left: 75px;
+  width: 1200px;
+  max-width: 400px;
+  position: relative;
+}
+
+.home-img .img {
+  width: 600px;
+  height: 400px;
+}
+
+.home-img a .btn {
+  top: 53%;
+  left: 215%;
+  background-color: rgb(210, 203, 187);
+  position: absolute;
+  height: 70px;
+  width: fit-content;
+  padding: 23px 23px 23px 23px;
+  text-align: center;
+  border-radius: 15px;
+  border-color: black;
+  color: black;
+  text-decoration: none;
+  text-emphasis-color: black;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
 
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: rgb(151, 193, 169);
-  color: black;
+  color: white;
   border-top: 0;
+  font-size: 20px;
 }
+
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#footnotes, #address {
+
+#footnotes,
+#follow-us {
   line-height: 2;
 }
-#hours > span, #address > span {
+
+#hours>span,
+#follow-us>span {
   font-size: 1.3em;
 }
-#address p {
+
+#follow-us p {
   color: #557c3e;
   font-size: .8em;
   line-height: 1.8;
 }
+
 #quotes {
   font-style: italic;
 }
+
 #quotes p:nth-child(2) {
   margin-top: 25px;
 }
+
 /* END FOOTER */
