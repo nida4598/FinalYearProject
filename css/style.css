@@ -163,7 +163,7 @@ body {
   background-color: rgb(151, 193, 169);
   color: white;
   border-top: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .panel-footer div.row {
@@ -175,7 +175,7 @@ body {
   line-height: 2;
 }
 
-#hours>span,
+#footnotes>span,
 #follow-us>span {
   font-size: 1.3em;
 }
@@ -186,11 +186,13 @@ body {
   line-height: 1.8;
 }
 
-#quotes {
-  font-style: italic;
+#contact-us {
+  text-decoration: none;
+  font-size: 1.3em;
+  line-height: 2;
 }
 
-#quotes p:nth-child(2) {
+#contact-us p:nth-child(2) {
   margin-top: 25px;
 }
 
