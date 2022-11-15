@@ -1,0 +1,27 @@
+/*contact us page*/
+.form-group {
+    width: 500px;
+    margin-left: 500px;
+    
+  }
+  .form-group label {
+    color: black;
+    font-size: 24px;
+  }
+  .form-group input {
+    width: 300px;
+  }
+  .form-class {
+    background-color: rgb(37, 100, 71);
+    height: 300px;
+    width: fit-content;
+    display: block;
+  }
+  .form-class .btn {
+    margin-left: 500px;
+    width:  100px;
+  }
+  .form-check {
+    margin-left: 500px;
+  }
+  
