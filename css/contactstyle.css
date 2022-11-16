@@ -1,7 +1,10 @@
 /*contact us page*/
+
 .form-group {
-    width: 500px;
-    margin-left: 500px;
+    padding: 10px;
+    margin-left: 125px;
+    display: inline-block;
+
     
   }
   .form-group label {
@@ -9,19 +12,32 @@
     font-size: 24px;
   }
   .form-group input {
-    width: 300px;
+    width: 400px;
   }
   .form-class {
     background-color: rgb(37, 100, 71);
-    height: 300px;
-    width: fit-content;
-    display: block;
-  }
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 500px;
+    border-radius: 70px;
+ }
   .form-class .btn {
-    margin-left: 500px;
-    width:  100px;
+    margin-left: 220px;
+    width: 390px;
+    background-color: rgb(151, 193, 169);
+    border-color: rgb(151,193,169);
+    color: black;
+
   }
   .form-check {
     margin-left: 500px;
+    padding-bottom: 1.5px;
   }
-  
+#comment-section {
+    background-color: white;
+    height: 150px;
+    text-align: justify;
+    line-height: normal;
+}
