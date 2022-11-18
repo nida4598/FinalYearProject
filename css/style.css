@@ -6,8 +6,8 @@ body {
 
 /* Add a black background color to the top navigation */
 .navbar {
-  /* background-color: rgb(151, 193, 169); */
-  background-color: rgb(216, 244, 0);
+   background-color: rgb(151, 193, 169); 
+  /*background-color: rgb(216, 244, 0);*/
   overflow: hidden;
 }
 
