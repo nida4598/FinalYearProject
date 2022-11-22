@@ -22,7 +22,16 @@ body {
   display: grid;
   grid-template-columns: 420px 420px;
   height: 390px;
+  border-left: 10px;
+
   
+}
+.login h2 , h3 {
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  
+
 }
 h2 {
   font-family: sans-serif;
